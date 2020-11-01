@@ -9,8 +9,6 @@ const UserCollectionSchema=new Schema({
         type:String,
         required:true
     }
-  
-
 })
 const UserCollection=mongoose.model('collection',UserCollectionSchema);
 
