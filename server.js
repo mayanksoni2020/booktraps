@@ -7,12 +7,6 @@ const config=require('config');
 app.use(express.json()); 
 
 
-
-
-
-
-
-
 // CORS Middleware
 app.use(cors());
 // Logger Middleware
