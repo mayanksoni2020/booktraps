@@ -42,7 +42,7 @@ router.delete('/owner/update/:collectionId',async(req,res)=>{
 })
 
 
-//@update colletion 
+//@update collection 
 router.patch('/owner/update/:collectionId',async(req,res)=>{
     const {collectionId}=req.params;
     const updatedCollection= await IndCollection.findByIdAndUpdate(collectionId,req.body,{new:true,runValidators:true});
