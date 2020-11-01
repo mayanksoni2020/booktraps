@@ -13,8 +13,6 @@ const IndCollectionSchema=new Schema({
         type:String,
         require:true
     },
-   
-
 })
 const IndCollection=mongoose.model('indcollection',IndCollectionSchema);
 
