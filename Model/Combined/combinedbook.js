@@ -29,5 +29,6 @@ const combinedBookSchema=new Schema({
     isBookImage:Boolean,
     nytImage:String
 })
+
 const CombinedBook=mongoose.model('combinedBooks',combinedBookSchema);
 module.exports=CombinedBook;
